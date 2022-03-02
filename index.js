@@ -309,3 +309,7 @@ export class WechatError extends Error {
 export function goKF(corpid, url, callback) {
   WeChat.goKf(corpid, url, callback)
 }
+
+export function goQQKF(url, callback) {
+  WeChat.goQQKf(url, callback)
+}
